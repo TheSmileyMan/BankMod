@@ -1,12 +1,12 @@
 package com.smiley.bankmod.item;
 
+import com.smiley.bankmod.BankMod;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 
 public class ItemCoin extends Item
 {
     public ItemCoin()
     {
-        super(new Item.Properties().group(ItemGroup.MISC));
+        super(new Item.Properties().group(BankMod.BM_TAB));
     }
 }

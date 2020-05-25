@@ -1,8 +1,10 @@
 package com.smiley.bankmod;
 
+import com.smiley.bankmod.block.BMBlocks;
 import com.smiley.bankmod.item.BMItems;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -71,8 +73,14 @@ public class BankMod
     }
 
     @SubscribeEvent(priority = EventPriority.LOWEST)
-    public void onBlocksRegistry(RegistryEvent.NewRegistry e)
+    public void onNewRegistry(RegistryEvent.NewRegistry e)
     {
         BMItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BMBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
+
+    public static ItemGroup BM_TAB = new ItemGroup("tabBankMod")
+    {
+        public ItemStack createIcon() { return new ItemStack(BMItems.COIN.get()); }
+    };
 }
