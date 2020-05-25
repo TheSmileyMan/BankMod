@@ -27,5 +27,7 @@ public class BMBlocks
         BMItems.ITEMS.register(id, () -> new BlockItem(registryObject.get(), new Item.Properties().group(itemGroup)));
         return registryObject;
     }
+    public static final RegistryObject<Block> BANK_MAKER = register("bank_maker", () -> new BlockBankMaker(Block.Properties.create(Material.ROCK).harvestTool(ToolType.PICKAXE).harvestLevel(2).hardnessAndResistance(5.0F, 6.0F)), BankMod.BM_TAB);
+
 
 }
