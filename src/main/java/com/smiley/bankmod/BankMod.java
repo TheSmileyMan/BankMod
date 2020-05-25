@@ -18,7 +18,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
-
+// Hello TheWeirdoRobot, your a nerd. 
 @Mod("bankmod")
 public class BankMod
 {
