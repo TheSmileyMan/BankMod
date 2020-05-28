@@ -21,6 +21,8 @@ public class BlockATM extends Block
         super(properties);
     }
 
+
+    /*
     @Override
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
         return SHAPE;
@@ -31,4 +33,5 @@ public class BlockATM extends Block
 
     return SHAPE;
     }
+     */
 }
