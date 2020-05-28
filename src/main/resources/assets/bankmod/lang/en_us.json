@@ -1,6 +1,9 @@
 {
   "item.bankmod.coin" : "Gold Coin",
+  "item.bankmod.silver_coin" : "Silver Coin",
+  "item.bankmod.bronze_coin" : "Bronze Coin",
   "block.bankmod.atm" : "ATM",
   "block.bankmod.bank_maker" : "Bank Maker"
+
 
 }

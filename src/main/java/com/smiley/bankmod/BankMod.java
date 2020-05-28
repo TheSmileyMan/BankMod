@@ -27,13 +27,13 @@ import java.util.stream.Collectors;
 public class BankMod
 {
     // TODO Make ATM Two Blocks High(Difficulty: Easyish)
-    // TODO Multiple Types of Coins, Bronze, Silver or Gold, etc.(Difficulty: Very Easy)
+
     // TODO Structure, Texture, and function for the BlockBankMaker(Difficulty: Hard)
     // TODO GUI for BlockATM.(Difficulty: Medium)
     // TODO Weapons Mod(Difficulty: Literally Copy Mr. Crayfish code xD JK)
     // TODO Stuff to buy with the coins. (Difficulty: Medium)
     // TODO Player Currency so the the balance can be kept within the ATM for each player.(Difficulty: Hard)
-    // TODO Additional Items and blocks, maybe(Difficulty: Easy)
+    // TODO Additional Items and blocks, maybe(Difficulty: IDK)
     // TODO
 
     private static final Logger LOGGER = LogManager.getLogger();
