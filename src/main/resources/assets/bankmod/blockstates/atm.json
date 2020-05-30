@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "bankmod:block/atm"}
+    "facing=north": { "model": "bankmod:block/atm", "y": 180 },
+    "facing=south": { "model": "bankmod:block/atm" },
+    "facing=west":  { "model": "bankmod:block/atm", "y": 90 },
+    "facing=east":  { "model": "bankmod:block/atm", "y": 270 }
   }
 }
